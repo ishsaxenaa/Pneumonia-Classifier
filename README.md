@@ -14,7 +14,7 @@ To run this application, you need to have the following installed:
 - TensorFlow (pip install tensorflow)
 - PIL (pip install pillow)
 - NumPy (pip install numpy)
-- Modify the paths for the background image, Label.txt, and pneumonia_classifier.h5 file according to your system folder.
+- Modify the paths for the background image, labels.txt, and pneumonia_classifier.h5 file according to your system folder.
   
 Usage
 - Upload a chest X-ray image using the file uploader.
