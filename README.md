@@ -14,19 +14,19 @@ To run this application, you need to have the following installed:
 - TensorFlow (pip install tensorflow)
 - PIL (pip install pillow)
 - NumPy (pip install numpy)
-- Modify the paths for background image, Label.txt, pneumonia_classifier.h5 file according to your system folder.
+- Modify the paths for the background image, Label.txt, and pneumonia_classifier.h5 file according to your system folder.
   
 Usage
--Upload a chest X-ray image using the file uploader.
--The application will display the uploaded image.
--The classification result will be displayed below the image, including the class name and confidence score.
+- Upload a chest X-ray image using the file uploader.
+- The application will display the uploaded image.
+- The classification result, including the class name and confidence score, will be displayed below the image.
 
 Technical Details
--The application uses the Streamlit library for building the user interface.
+-The application uses the Streamlit library to build the user interface.
 -The TensorFlow model is loaded from the model/pneumonia_classifier.h5 file.
 -The classify function from the util module is used to make predictions on the uploaded image.
 -The set_background function from the util module is used to set the background image.
 
 Acknowledgments
 -The pre-trained TensorFlow model is used for classification.
--The Streamlit library is used for building the user interface.
+-The Streamlit library is used to build the user interface.
