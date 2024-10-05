@@ -22,11 +22,11 @@ Usage
 - The classification result, including the class name and confidence score, will be displayed below the image.
 
 Technical Details
--The application uses the Streamlit library to build the user interface.
--The TensorFlow model is loaded from the model/pneumonia_classifier.h5 file.
--The classify function from the util module is used to make predictions on the uploaded image.
--The set_background function from the util module is used to set the background image.
+- The application uses the Streamlit library to build the user interface.
+- The TensorFlow model is loaded from the model/pneumonia_classifier.h5 file.
+- The classify function from the util module is used to make predictions on the uploaded image.
+- The set_background function from the util module is used to set the background image.
 
 Acknowledgments
--The pre-trained TensorFlow model is used for classification.
--The Streamlit library is used to build the user interface.
+- The pre-trained TensorFlow model is used for classification.
+- The Streamlit library is used to build the user interface.
