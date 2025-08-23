@@ -1,4 +1,4 @@
-# Pneumonia-Classifier
+<img width="1258" height="627" alt="Screenshot 2025-08-23 at 8 37 21 PM" src="https://github.com/user-attachments/assets/5a43e238-bf23-427e-a046-ac34dfa75d99" /># Pneumonia-Classifier
 Introduction
 - This is a Streamlit application that classifies chest X-ray images as either pneumonia or not. The application uses a pre-trained TensorFlow model to make predictions.
 
@@ -30,3 +30,8 @@ Technical Details
 Acknowledgments
 - The pre-trained TensorFlow model is used for classification.
 - The Streamlit library is used to build the user interface.
+
+
+
+
+<img width="225" height="627" alt="Screenshot 2025-08-23 at 8 37 21 PM" src="https://github.com/user-attachments/assets/713b54fb-5185-4fdc-9c76-9c9bc2f349cc" />
